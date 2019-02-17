@@ -9,15 +9,15 @@ import lombok.Data;
 public class JwtConfig {
 
 
-    @Value("${jwt.token.header}")
+    @Value("${app.jwt.header}")
     private String header;
 
-    @Value("${jwt.token.prefix}")
+    @Value("${app.jwt.prefix}")
     private String prefix;
     
-    @Value("${jwt.token.secret}")
+    @Value("${app.jwt.secret}")
     private String secret;
     
-    @Value("${jwt.token.expiration}")
-    private int expiration;    
+    @Value("${app.jwt.expirationInMs}")
+    private int expirationInMs;    
 }

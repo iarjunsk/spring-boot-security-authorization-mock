@@ -13,7 +13,6 @@ public class UserAPIController {
 	@GetMapping("/checkUsernameAvailability")
 	public String checkUsernameAvailability() {
 		return "Username is available";
-		//TODO: Implementation use to be done
 	}
 	
 	
