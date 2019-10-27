@@ -58,7 +58,7 @@ public class AuthController {
 	        jwt = tokenProvider.generateToken(authentication);
 		}catch(Exception ex) {
 			logger.info("authenticateUser() : Exception " + ex);
-			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ex);
+			return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(ex);
 		}
 		
         return ResponseEntity.ok(new JwtAuthenticationResponseDTO(jwt));
