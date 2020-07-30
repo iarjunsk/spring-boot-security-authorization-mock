@@ -1,1 +1,1 @@
-# spring-boot-security-authorization-mock
+# Spring Security + JWT + PostgreSQL
