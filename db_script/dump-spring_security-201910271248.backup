@@ -171,7 +171,7 @@ INSERT INTO public.user_roles VALUES (1, 1);
 -- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO public.users VALUES (1, 'arjunsk15@gmail.com', 'Arjun', '$2a$10$MmfJTsldT34tg9a0FOkWs.3oF.ffci58n3fcCBbJRLiR8D5YWmCz6', 'test');
+INSERT INTO public.users VALUES (1, 'arjunsk@gmail.com', 'Arjun', '$2a$10$MmfJTsldT34tg9a0FOkWs.3oF.ffci58n3fcCBbJRLiR8D5YWmCz6', 'test');
 
 
 --
